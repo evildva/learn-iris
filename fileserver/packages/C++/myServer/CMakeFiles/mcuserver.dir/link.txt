@@ -1,0 +1,1 @@
+/usr/bin/c++     CMakeFiles/mcuserver.dir/main.cpp.o  -o mcuserver -lboost_thread -lpthread 

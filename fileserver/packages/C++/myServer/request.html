@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>request</title>
+<script src="./jquery-3.4.1.js">
+</script>
+<script>
+$(document).ready(function(){
+	$("#bt1").click(function(){
+		$.post("http://localhost:8000?name=abc&id=123",{
+			name:"request",
+			url:"http://www.run.com"
+		},
+		function(data,status){
+			alert("数据: \n" + data + "\n状态: " + status);
+		});
+	});
+
+	$("#bt2").click(function(){
+		$.get("http://localhost:8000?name=abc&id=123",function(data,status){
+			alert("数据: " + data + "\n状态: " + status);
+		});
+	});
+});
+</script>
+</head>
+<body>
+
+<button id="bt1">发送一个 HTTP POST 请求页面并获取返回内容</button>
+</br>
+<button id="bt2">发送一个 HTTP GET 请求并获取返回结果</button>
+
+</body>
+</html>

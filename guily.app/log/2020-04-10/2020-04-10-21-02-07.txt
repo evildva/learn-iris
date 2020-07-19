@@ -1,0 +1,11 @@
+[DBUG] 2020/04/10 21:02 [./main.go:33] GET: / -> main.main.func2()
+[DBUG] 2020/04/10 21:02 [./main.go:37] GET: /download -> main.main.func3()
+[DBUG] 2020/04/10 21:02 [./main.go:42] GET: /test -> main.main.func4()
+[DBUG] 2020/04/10 21:02 Application: running using 1 host(s)
+[DBUG] 2020/04/10 21:02 Host: addr is :8000
+[DBUG] 2020/04/10 21:02 Host: virtual host is localhost:8000
+[DBUG] 2020/04/10 21:02 Host: register startup notifier
+Now listening on: http://localhost:8000
+Application started. Press CTRL+C to shut down.
+[DBUG] 2020/04/10 21:03 Host[0]: Shutdown now
+[ERRO] 2020/04/10 21:03 http: Server closed

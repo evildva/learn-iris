@@ -1,0 +1,9 @@
+[DBUG] 2020/04/08 13:38 [./main.go:33] GET: / -> main.main.func2()
+[DBUG] 2020/04/08 13:38 Application: running using 1 host(s)
+[DBUG] 2020/04/08 13:38 Host: addr is :8000
+[DBUG] 2020/04/08 13:38 Host: virtual host is localhost:8000
+[DBUG] 2020/04/08 13:38 Host: register startup notifier
+Now listening on: http://localhost:8000
+Application started. Press CTRL+C to shut down.
+[DBUG] 2020/04/08 13:39 Host[0]: Shutdown now
+[ERRO] 2020/04/08 13:39 http: Server closed

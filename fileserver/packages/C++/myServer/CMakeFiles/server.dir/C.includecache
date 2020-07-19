@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/guil/Desktop/C++/myServer/epollserver.c
+stdio.h
+-
+unistd.h
+-
+stdlib.h
+-
+sys/types.h
+-
+string.h
+-
+sys/epoll.h
+-
+arpa/inet.h
+-
+fcntl.h
+-
+dirent.h
+-
+sys/stat.h
+-
+ctype.h
+-
+epollserver.h
+/home/guil/Desktop/C++/myServer/epollserver.h
+
+/home/guil/Desktop/C++/myServer/epollserver.h
+

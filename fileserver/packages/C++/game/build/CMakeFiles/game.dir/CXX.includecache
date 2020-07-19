@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/guil/Desktop/C++/game/main.cpp
+iostream
+-
+SDL2/SDL.h
+/home/guil/Desktop/C++/game/SDL2/SDL.h
+

@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/guil/Desktop/C++/datastructure/container.cpp
+iostream
+-
+time.h
+-
+stdio.h
+-
+stdlib.h
+-
+string
+-
+array
+-
+vector
+-
+set
+-
+map
+-
+algorithm
+-
+

@@ -1,0 +1,3 @@
+Now listening on: http://localhost:8000
+Application started. Press CTRL+C to shut down.
+[ERRO] 2020/04/08 13:22 http: Server closed
